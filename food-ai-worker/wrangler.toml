@@ -5,7 +5,7 @@ compatibility_flags = ["nodejs_compat"]
 
 [vars]
 # 允許呼叫此後端的 PWA 網址（逗號分隔）。部署 PWA 後改成你的網址，例如 "https://yourname.github.io"
-ALLOWED_ORIGINS = "http://localhost:5173"
+ALLOWED_ORIGINS = "https://williamlin2000.github.io,http://localhost:5173"
 # 使用的模型與思考深度；可改成 claude-haiku-5-5 以大幅降低費用（準確度會下降）
 MODEL = "claude-opus-5-5"
 EFFORT = "medium"
